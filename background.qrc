@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>0ba296d686891fb6ae10cb8538abc7c2.jpg</file>
+        <file>4f7773ce8adcb5f01da8f837647e564d.jpg</file>
+        <file>6144a8ddbb5651338f9446083a9e2e55.jpeg</file>
+        <file>6589c8458c64d789fb097468c0586a64.jpg</file>
+        <file>bb1.jpeg</file>
+        <file>bb2.jpg</file>
+        <file>bb3.jpg</file>
+        <file>bb4.jpg</file>
+        <file>bb8.jpeg</file>
+        <file>bcdfbc1b9e1ae8f4b9e070b2d253d109.jpeg</file>
+        <file>bu1.jpg</file>
+        <file>bu2.jpg</file>
+        <file>bu3.jpg</file>
+        <file>bu4.jpg</file>
+        <file>bu9.jpg</file>
+        <file>dcb079efea615e687653e983ead45cb7.jpg</file>
+        <file>e59e21420d5f60eb93760f771054daea.jpg</file>
+        <file>f8793c1bf093c9c764d913381b911902.jpg</file>
+        <file>h1.jpg</file>
+        <file>h2.jpg</file>
+        <file>h3.jpg</file>
+        <file>h4.jpg</file>
+        <file>h5.jpg</file>
+        <file>h7.jpeg</file>
+        <file>h9.jpg</file>
+        <file>h11.jpg</file>
+        <file>h15.jpg</file>
+        <file>st1.jpg</file>
+        <file>st2.jpeg</file>
+        <file>st3.jpg</file>
+        <file>st5.jpg</file>
+        <file>st6.jpg</file>
+        <file>st7.jpg</file>
+        <file>tree2.jpg</file>
+        <file>462ad15d590f3f2782c7e5f664be1b3b.jpg</file>
+        <file>61e71ecf7d0edb7425693ec7b56fbd22.jpg</file>
+    </qresource>
+</RCC>

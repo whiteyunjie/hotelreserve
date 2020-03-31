@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>hotelreserve</class>
+ <widget class="QDialog" name="hotelreserve">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1334</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="hotelinfo">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>871</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lookorders">
+   <property name="geometry">
+    <rect>
+     <x>1002</x>
+     <y>440</y>
+     <width>131</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看订单</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="turnsbase">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>140</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>按价格</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按评分</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="turns">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>140</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>升序</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>降序</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="enquery">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>270</y>
+     <width>71</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="city">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>180</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="hotelname">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>230</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>180</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;查询城市&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>230</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;查询酒店名&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fordetails">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>337</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看详细信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="changeinfo">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>490</y>
+     <width>131</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修改信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>390</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存数据</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>-9</x>
+     <y>-6</y>
+     <width>1351</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="background.qrc">:/new/prefix1/e59e21420d5f60eb93760f771054daea.jpg</pixmap>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>hotelinfo</zorder>
+  <zorder>lookorders</zorder>
+  <zorder>turnsbase</zorder>
+  <zorder>turns</zorder>
+  <zorder>enquery</zorder>
+  <zorder>city</zorder>
+  <zorder>hotelname</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>fordetails</zorder>
+  <zorder>changeinfo</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources>
+  <include location="background.qrc"/>
+ </resources>
+ <connections/>
+</ui>
